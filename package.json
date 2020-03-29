@@ -1,0 +1,28 @@
+{
+  "name": "debug-node",
+  "version": "1.0.0",
+  "description": "node.js debug demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "inspect": "node --inspect app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaohp/debug-node.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiaohp/debug-node/issues"
+  },
+  "homepage": "https://github.com/xiaohp/debug-node#readme",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-route": "^3.2.0"
+  }
+}
